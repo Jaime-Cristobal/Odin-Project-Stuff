@@ -1,5 +1,55 @@
-#logo {
+.top-nav {
+    width: auto;
+    height: 70px;
+}
+
+.center-nav {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 70px;
+    height: 500px;
+}
+
+.logo {
     margin: auto;
-    padding-left: 800px;
-    padding-top: 170px;
+    position: absolute;
+    top: 138px;
+    left: 825px;
+}
+
+.nav-bar {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 690px;
+}
+
+#search-bar {
+    width: 535px;
+    height: 26px;
+    border-radius: 5%;
+}
+
+.nav-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 340px;
+    left: 820px;
+}
+
+#search-button {
+    margin-right: auto;
+    width: 130px; 
+    height: 30px;
+}
+
+#feeling-lucky-button {
+    margin-left: auto;
+    width: 130px; 
+    height: 30px;
 }
