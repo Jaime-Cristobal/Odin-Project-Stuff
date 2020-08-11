@@ -21,9 +21,8 @@ li a {
     text-decoration: none;
 }
 
-.right-top-nav {
+.right-nav {
     position: absolute;
-    top: 18px;
     left: 1655px;
 }
 
@@ -97,9 +96,12 @@ li a {
 }
 
 footer {
-    background-color: black;
-    margin: auto;
-    height: 100px;
-    position: absolute;
-    width: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border-top-color: rgb(228, 228, 228);
+    color: rgb(34, 34, 34);
+    text-align: center;
 }
